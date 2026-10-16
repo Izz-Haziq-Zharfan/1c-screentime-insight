@@ -32,3 +32,18 @@ Upload your profile photo and optional MARA/MRSM logos on About Me. Use only ima
 - Sunday mean: 8.49 hours
 
 These values are simulated examples for educational demonstration, not verified measurements from real students. Heatmap values for days beyond Friday–Sunday are illustrative visual placeholders.
+
+
+## Demo login and OTP
+The updated edition includes an interactive sign-in screen, role selection, a six-digit simulated OTP step, resend-code action, session persistence, and logout. For this static demo, enter any non-empty username/email and any non-empty demo password; the OTP is displayed on-screen. **It is not sent by email or SMS and is not secure authentication.** Anyone can inspect or alter client-side JavaScript on a public GitHub Pages site. Do not use real passwords or private data. Secure accounts and real OTP delivery require a backend authentication provider and server-side role permissions.
+
+## Interaction scope
+This is still a static browser-only website. Theme, chart, heatmap, seating, profile, export, and local feedback interactions run in the browser. They do not create shared accounts or server-side data. Some language labels are preference-only and not every page is fully translated.
+
+## Class Research Hub update
+- Added a presenter mode with five navigable slides for classroom display.
+- Added a class interpretation poll and reflection/exit-ticket capture.
+- Polls and reflections are currently stored only in this browser. They do **not** appear on classmates' devices. Multi-device participation requires a shared database/backend (a free-tier service such as Supabase may be suitable, subject to its current limits and setup).
+- Heatmap intensity and label controls now persist locally and reset to defaults; reduced-motion preference now changes animation behavior. The language selector currently records the preference but does not fully translate every page.
+- Classroom layout selections are visual planning aids and do not represent real student data.
+- Demo OTP is generated in the browser and shown on screen. It is not sent by email/SMS and is not secure authentication.
